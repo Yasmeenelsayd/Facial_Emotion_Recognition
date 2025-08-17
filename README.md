@@ -41,9 +41,20 @@ The following table summarizes the performance of the implemented models on the 
 | MobileNetV2 (Fine-tuned last 30 layers) | 71.60%         | 62.56%              | 0.7539     | 1.0703          | Better than vanilla MobileNetV2,but still weaker than 10-layer CNN | 
 
 ## Performance Analysis
+
 Plotting the accuracy and loss of the trained model is always the first step to anaylze how the the model is performing. Here are two pictures illustrating the performance and Loss for 10-Layer CNN architecture.
+
 **Accuracy Curve**  
 ![Accuracy](assets/Accuracy.png)
 
 **Loss Curve**  
 ![Loss](assets/Loss.png)
+
+However, depending on only the accuracy and loss of the trained model doesn't always give a full understanding of the model's performance.
+There are more advanced metrics that can be used like the F1 score which we decided to use. The F1 score is calculated using two pre-calculated metrics: precision and recall. These two metrics utilize the true positive, false positive and false negative predicted examples which are best visualised using the confusion matrix and classification report.
+
+**Confusion Matrix**  
+![Confusion Matrix](assets/Confusion_Matrix.png)
+
+**Classification Report**  
+![Classification Report](assets/Classification_Report.png)
