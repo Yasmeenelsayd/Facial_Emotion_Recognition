@@ -42,4 +42,8 @@ The following table summarizes the performance of the implemented models on the 
 
 ## Performance Analysis
 Plotting the accuracy and loss of the trained model is always the first step to anaylze how the the model is performing. Here are two pictures illustrating the performance and Loss for 10-Layer CNN architecture.
+**Accuracy Curve**  
+![Accuracy](assets/Accuracy.png)
 
+**Loss Curve**  
+![Loss](assets/Loss.png)
